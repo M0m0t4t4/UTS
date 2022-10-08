@@ -9,13 +9,109 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
-    </head>
     <style>
-    </style>
+      body{
+        background-color: #ddd;
+      }
+        .tamp{
+          background-image: url(abstrack.jpg);
+          padding:0;
+          height: 300px;
+          background-size: cover;
+          color:white;
+          
+        }
+      #link{
+      padding: 40px;
+      background-color:rgba(0,0,0, 0.5);
+      text-align: center;
+      font-family: "Times New Roman", Times, serif;
+      }
+      
+      #link a:hover{
+      background-color:rgba(1,0,0, 10);
+      padding:40px;
+      text-decoration: none;
+      color:white;
+      font-family: "Times New Roman", Times, serif;
+      }
+      #link a:active{
+      transition:0.09s;
+      text-decoration: underline overline;
+      font-family: "Times New Roman", Times, serif;
+      }
+      .link1{
+      padding:40px;
+      width:200px;
+      color:white;
+      text-decoration:none;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+      }
+      
+      .link2{
+      padding:40px; 
+      width:200px;
+      color:whitesmoke;
+      text-decoration:none;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 35px;
+      }
+      .abc{
+      padding:1px;
+      background-color: white;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px;
+      }
+    
+      .divForm{
+        background-color:white;
+        position:relative;
+        padding-left: 20px;
+        padding-right: 20px;
+          }
+    
+    .searchbox {
+    float:none;
+    text-align:center;
+    }
+    input[type=text1] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    }
+    .searchbox button {
+    
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: orange;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    }
+    .searchbox button:hover {
+    background: blue;
+    }
+    .medsos{
+      color: white;
+      text-decoration: none;
+    }
+    .medsos:hover{
+      color:#ddd;
+      text-decoration: none;
+    }
+    .medsos:active{
+      color:black;
+    }
+      </style>
+      </head>
     <body>
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-     
+
+      
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -25,29 +121,40 @@
       
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start" style= "font-family: Times New Roman , Times, serif;">
-            <a class="navbar-item" href="index.html">Home</a>
-  
-            <a class="navbar-item" href="komputer.html">Komputer</a>
-  
-            <a class="navbar-item" href="manajemen.html">Manajemen</a>
-  
-            <a class="navbar-item" href="akuntansi.html">Akuntansi</a>
-  
-            <a class="navbar-item" href="hukum.html">Hukum</a>
-  
-            <a class="navbar-item" href="arsitek.html">Arsitektur</a>
-  
+            <a class="navbar-item" href="index.html">Home</a> 
             <a class="navbar-item" href="About.html">About</a>
+
+            <a class="navbar-item" href="#">Contact</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">Jobs</a>
+              <div class="navbar-dropdown">
+                
+                  <a class="navbar-item" href="komputer.html">Komputer</a>
+                  <br>
+             
+                  <a class="navbar-item" href="manajemen.html">Manajemen</a><br>
+                
+                  <a class="navbar-item" href="akuntansi.html">Akuntansi</a><br>
+             
+                  <a class="navbar-item" href="hukum.html">Hukum</a>
+                
+                  <br>
+             
+                  <a class="navbar-item" href="arsitek.html">Arsitektur</a>
+              
+               
+              </div>
+            </div>
   
           </div>
       
           <div class="navbar-end">
             <div class="navbar-item">
               <div class="buttons">
-                <a class="button is-primary">
+                <a class="button is-primary" href="SignUp.html">
                   <strong>Sign up</strong>
                 </a>
-                <a class="button is-light">
+                <a class="button is-light" href="LogIn.html">
                   Log in
                 </a>
               </div>
@@ -55,111 +162,13 @@
           </div>
         </div>
       </nav>
-  
-  <style>
-  body{
-    background-color: #ddd;
-  }
-    .tamp{
-      background-image: url(abstrack.jpg);
-      padding:0;
-      height: 300px;
-      background-size: cover;
-      color:white;
-      
-    }
-  #link{
-  padding: 40px;
-  background-color:rgba(0,0,0, 0.5);
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  }
-  
-  #link a:hover{
-  background-color:rgba(1,0,0, 10);
-  padding:40px;
-  text-decoration: none;
-  color:white;
-  font-family: "Times New Roman", Times, serif;
-  }
-  #link a:active{
-  transition:0.09s;
-  text-decoration: underline overline;
-  font-family: "Times New Roman", Times, serif;
-  }
-  .link1{
-  padding:40px;
-  width:200px;
-  color:white;
-  text-decoration:none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  }
-  
-  .link2{
-  padding:40px; 
-  width:200px;
-  color:whitesmoke;
-  text-decoration:none;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 35px;
-  }
-  .abc{
-  padding:1px;
-  background-color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
-  }
-
-  .divForm{
-    background-color:white;
-    position:relative;
-    padding-left: 20px;
-    padding-right: 20px;
-      }
-
-.searchbox {
-float:none;
-text-align:center;
-}
-input[type=text] {
-padding: 6px;
-margin-top: 8px;
-font-size: 17px;
-border: none;
-}
-.searchbox button {
-
-padding: 8px;
-margin-top: 10px;
-margin-left: 10px;
-background: orange;
-font-size: 20px;
-border: none;
-cursor: pointer;
-}
-.searchbox button:hover {
-background: blue;
-}
-.medsos{
-  color: white;
-  text-decoration: none;
-}
-.medsos:hover{
-  color:#ddd;
-  text-decoration: none;
-}
-.medsos:active{
-  color:black;
-}
-  </style>
 
 <header class="tamp"><h1 style= "font-family: Times New Roman , Times, serif;">
   <br>
 <p style="text-align:center;">Cari Minat Pekerjaan Anda </p> </h1>
 <div class="searchbox">
 <form> 
-<input type="text" placeholder=" Search...." name="search"> 
+<input style="width:750px;min-width:500px;" type="text1" placeholder=" Search...." name="search"> 
 <button type="submit"><i class="fa fa-search"></i></button> 
 </form>
 </div> 
@@ -178,7 +187,7 @@ background: blue;
             oninput="setCustomValidity('')"></input>
             <br>
             <label class="control-label"  for="username">No.telp :</label>
-            <input class="form-control" type="number"  required="" 
+            <input class="form-control" type="tel"  required="" 
             oninvalid="this.setCustomValidity('Mohon masukkan no.telp yang benar')"
             oninput="setCustomValidity('')"></input>
             <br>
@@ -197,7 +206,10 @@ background: blue;
                     <h5 class="text-uppercase">Apa fungsi Jobseeker ?</h5>
           
                     <p>
-                      Jobseeker dibuat untuk orang-orang yang ingin mencari pekerjaan yang mereka inginkan. Semangat bekerja!
+                      Jobseeker dibuat untuk orang-orang yang ingin mencari pekerjaan yang mereka inginkan.
+            Anda masih ragu dan bingung dengan pilihan pekerjaan anda? Let's Check Web kami  semua lengkap ada di web kami. 
+    Jangan Lupa masukan email dan password anda agar dapat mengetahui dan mendaftar secara lengkap di web kami 
+    semoga anda menemukan yang anda inginkan dan menggapai cita-cita anda. Semangat bekerja!
                     </p>
                   </div>
                   <!--Grid column-->
@@ -206,19 +218,19 @@ background: blue;
                   <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                     <ul class="list-unstyled mb-0">
                       <li>
-                        <a href="komputer.html" class="text-white">Komputer</a>
+                        <a href="komputer.html" class="text-white" style="text-decoration:none;">Komputer</a>
                       </li>
                       <li>
-                        <a href="akuntansi.html" class="text-white">akuntansi</a>
+                        <a href="akuntansi.html" class="text-white" style="text-decoration:none;">Akuntansi</a>
                       </li>
                       <li>
-                        <a href="hukum.html" class="text-white">Hukum</a>
+                        <a href="hukum.html" class="text-white" style="text-decoration:none;">Hukum</a>
                       </li>
                       <li>
-                        <a href="manajemen.html" class="text-white">manajemen</a>
+                        <a href="manajemen.html" class="text-white" style="text-decoration:none;">Manajemen</a>
                       </li>
                       <li>
-                        <a href="arsitek.html" class="text-white">Arsitektur</a>
+                        <a href="arsitek.html" class="text-white" style="text-decoration:none;">Arsitektur</a>
                       </li>
                     </ul>
                   </div>
@@ -249,13 +261,13 @@ background: blue;
                     <ul class="list-unstyled">
                    
                       <li>
-                        <a href="About.html" class="text-white">About</a>
+                        <a href="About.html" class="text-white" style="text-decoration:none;">About</a>
                       </li>
                       <li>
-                        <a href="#" class="text-white">Contact</a>
+                        <a href="#" class="text-white" style="text-decoration:none;">Contact</a>
                       </li>
                       <li>
-                        <a href="#" class="text-white">Member</a>
+                        <a href="#" class="text-white" style="text-decoration:none;">Member</a>
                       </li>
                     </ul>
                   </div>
