@@ -14,7 +14,7 @@
         background-color: #ddd;
       }
         .tamp{
-          background-image: url(abstrack.jpg);
+          background-image: url(../public/assets/abstrack.jpg);
           padding:0;
           height: 300px;
           background-size: cover;
@@ -175,23 +175,17 @@
 </header>
      <br>
      
-          <form action="suksesDaftar.html" class="divForm" style= "font-family: Times New Roman , Times, serif;">
+          <form action="/sign_up" method="POST" class="divForm" style= "font-family: Times New Roman , Times, serif;">
             <h2 class="form-signin-heading">Daftar</h2><br>
-            <label class="control-label"  for="username">Nama lengkap :</label>
-            <input class="form-control" type="text"  required="" 
-            oninvalid="this.setCustomValidity('Mohon masukkan nama lengkap')"
-            oninput="setCustomValidity('')"></input><br>
-            <label class="control-label"  for="username">Email :</label>
-            <input class="form-control" type="email"  required="" 
-            oninvalid="this.setCustomValidity('Mohon masukkan email yang benar')"
-            oninput="setCustomValidity('')"></input>
-            <br>
-            <label class="control-label"  for="username">No.telp :</label>
-            <input class="form-control" type="tel"  required="" 
-            oninvalid="this.setCustomValidity('Mohon masukkan no.telp yang benar')"
-            oninput="setCustomValidity('')"></input>
-            <br>
-              <input type="submit"/>
+            <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    <br>
+                    <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+                    <br>
+                    <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required />
+                    <br>
+                    <input type="text" class="box" id="password" name="password" placeholder="Password" required />
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
             </form>
           <br>
           <section class="">
